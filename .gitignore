@@ -52,6 +52,7 @@ dist/
 
 # emacs
 \#*#
+*~
 
 # Eclipse specific files
 .settings/

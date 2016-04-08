@@ -50,6 +50,9 @@ out/
 dock_hx.egg-info/
 dist/
 
+# emacs
+\#*#
+
 # Eclipse specific files
 .settings/
 .project
