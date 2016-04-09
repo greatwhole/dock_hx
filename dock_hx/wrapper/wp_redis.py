@@ -5,7 +5,7 @@ Created on '16/4/7'
 """
 
 from redis import Redis
-from dock.lib.memory_cache import params_singleton
+from dock_hx.common.singleton import singleton, params_singleton
 
 
 @params_singleton

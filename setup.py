@@ -20,6 +20,7 @@ install_requires = [
     'requests',
     'marshmallow',
     'ipython',
+    'redis',
 ]
 
 if sys.version_info < (2, 7):
