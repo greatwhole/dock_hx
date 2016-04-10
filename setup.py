@@ -19,6 +19,7 @@ install_requires = [
     'pandas==0.18.0',
     'requests',
     'marshmallow',
+    'sqlalchemy',
     'ipython',
     'redis',
 ]
