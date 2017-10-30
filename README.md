@@ -8,3 +8,10 @@ pip install git+git://github.com/greatwhole/dock_hx.git
 
 原项目没人管了，索性自己基于django-1.11.3写一个。
 增加了redirect。
+
+
+# 使用实例
+
+[meizitoday.com](meizitoday.com)
+
+注: 制作此网站的目的是玩下使用django后的前后端全栈实践，内容本身不代表本人的道德水平。
