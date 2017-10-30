@@ -6,22 +6,15 @@ Created on '16/4/4'
 
 import sys
 from setuptools import setup, find_packages
-__version__ = '1.0.1'
+__version__ = '0.0.1'
 
 
 install_requires = [
-    'flask',
-    'flask-restful',
-    'flask-httpauth',
-    'elasticsearch==1.5.0',  # amazon 提供的是1.5.2
-    'gevent',
-    'numpy==1.11.0',
-    'pandas==0.18.0',
+    'Django==1.11.3',
     'requests',
-    'marshmallow',
-    'sqlalchemy',
+    'commandr',
+    'arrow',
     'ipython',
-    'redis',
 ]
 
 if sys.version_info < (2, 7):
