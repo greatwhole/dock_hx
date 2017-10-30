@@ -1,3 +1,5 @@
+pip install git+git://github.com/greatwhole/dock_hx.git
+
 # dock_hx
 个人项目的公共依赖lib
 
