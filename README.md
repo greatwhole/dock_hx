@@ -12,6 +12,6 @@ pip install git+git://github.com/greatwhole/dock_hx.git
 
 # 使用实例
 
-[meizitoday.com](meizitoday.com)
+[meizitoday.com](http://www.meizitoday.com)
 
 注: 制作此网站的目的是玩下使用django后的前后端全栈实践，内容本身不代表本人的道德水平。
