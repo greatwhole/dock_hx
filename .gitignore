@@ -84,3 +84,5 @@ xcuserdata
 
 # IDEA specific files
 .idea/
+
+.python-version
