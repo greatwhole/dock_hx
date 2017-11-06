@@ -34,7 +34,11 @@ class RedirectMiddleware(object):
         return response
 
     def process_view(self, request, view_func, view_args, view_kwargs):
-        user_agents_str = request.META['HTTP_USER_AGENT']
+        user_agents_str = request.META.get('HTTP_USER_AGENT', None)
+
+        if user_agents_str is None:
+            return
+
         url = request.build_absolute_uri()
         user_agent = user_agents.parse(user_agents_str)
         is_mobile = user_agent.is_mobile
