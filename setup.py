@@ -21,14 +21,14 @@ if sys.version_info < (2, 7):
     install_requires += ['argparse==1.2.1']
 
 setup(
-    name='dock_hx',
+    name='hx_dock',
     version=__version__,
     license='Proprietary',
     author='Huang Xiang',
     author_email='greatwhole@greatwhole90.com',
     maintainer='Huang Xiang',
     maintainer_email='greatwhole@greatwhole90.com',
-    description='dock by hx',
+    description='common py lib',
     long_description=__doc__,
     packages=find_packages('.', exclude=["tests.*", "tests"]),
     packages_dir={'': '.'},

@@ -1,6 +1,6 @@
-pip install -e git+git://github.com/greatwhole/dock_hx.git#egg=dock_hx
+pip install -e git+git://github.com/greatwhole/hx_dock.git#egg=hx_dock
 
-# dock_hx
+# hx_dock
 个人项目的公共依赖lib
 
 ## dj_mobile
